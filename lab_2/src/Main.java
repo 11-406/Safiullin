@@ -86,7 +86,7 @@ public class Main {
         System.out.printf("УДАЛЕНИЕ:\nСреднее время: %.0f наносекунд\nСреднее количество операций: %.2f\n\n",
                 avgDeleteTime, avgDeleteOps);
 
-        //  Сохранение в CSV
+        
         saveToCSV("insert.csv", insertTimes, insertOps);
         saveToCSV("search.csv", searchTimes, searchOps);
         saveToCSV("delete.csv", deleteTimes, deleteOps);
